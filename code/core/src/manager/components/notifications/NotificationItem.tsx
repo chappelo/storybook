@@ -163,6 +163,7 @@ const DismissNotificationItem: FC<{
   onDismiss: () => void;
 }> = ({ onDismiss }) => (
   <DismissButtonWrapper
+    aria-label="Dismiss notification"
     title="Dismiss notification"
     onClick={(e: SyntheticEvent) => {
       e.preventDefault();
